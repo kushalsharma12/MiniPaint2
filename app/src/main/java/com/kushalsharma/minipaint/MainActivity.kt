@@ -12,5 +12,7 @@ class MainActivity : AppCompatActivity() {
         myCanvasView.systemUiVisibility = SYSTEM_UI_FLAG_FULLSCREEN
         myCanvasView.contentDescription = getString(R.string.canvasContentDescription)
         setContentView(myCanvasView)
+
+        println("Something useful is going on, working to change the world and know why I am living. Life is fragile and one can die at any time or soon")
     }
 }
